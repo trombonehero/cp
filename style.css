@@ -33,7 +33,7 @@ h1, h2, h3, h4, a:hover
 h1, h2
 {
 	margin-left: -.45em;
-	margin-bottom: .25em;
+	margin-bottom: -.25em;
 }
 
 h2 { font-size: 36pt; }
@@ -49,6 +49,7 @@ h3
 {
 	background: rgba(255, 255, 255, 0.7);
 	border-radius: 10px;
+	margin: .5em;
 }
 
 #header
