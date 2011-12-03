@@ -1,0 +1,68 @@
+@font-face
+{
+	font-family: Tangerine;
+	src: url('fonts/tangerine.ttf');
+}
+
+@font-face
+{
+	font-family: "Crimson Text";
+	src: url('fonts/crimson.ttf');
+}
+
+html
+{
+	color: rgb(62, 38, 74);
+	font-family: "Crimson Text", serif;
+}
+
+body
+{
+	background-image:url('images/flourish.png');
+	background-repeat:no-repeat;
+	background-position:bottom right;
+	background-attachment: fixed;
+}
+
+h1, h2, h3, h4, a:hover
+{
+	color: rgb(113, 95, 137);
+}
+
+h1, h2, h3, h4
+{
+	font-family: Tangerine;
+	margin-left: -.45em;
+	margin-bottom: .25em;
+}
+
+h2 { font-size: 36pt; }
+
+.block
+{
+	background: rgba(255, 255, 255, 0.7);
+}
+
+#header
+{
+	position: absolute;
+	top: 0em;
+	z-index: -1;
+}
+
+#body
+{
+	margin-top: 140px;
+	margin-left: 4em;
+	margin-right: 4em;
+}
+
+a
+{
+	color: rgb(145, 96, 189);
+	font-weight: bold;
+	text-decoration: none;
+}
+
+td { padding: 0 1em 0 1em; }
+
