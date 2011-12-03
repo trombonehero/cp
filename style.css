@@ -48,6 +48,7 @@ h3
 .block
 {
 	background: rgba(255, 255, 255, 0.7);
+	border-radius: 10px;
 }
 
 #header
@@ -77,6 +78,7 @@ td { padding: 0 1em 0 1em; }
 {
 	background: rgba(255, 204, 204, 0.5);
 	border: solid rgba(51, 153, 51, 0.8) 2px;
+	border-radius: 15px;
 	padding: 0.75em;
 	padding-bottom: 0;
 }
