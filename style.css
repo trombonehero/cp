@@ -75,16 +75,14 @@ a
 
 td { padding: 0 1em 0 1em; }
 
-.christmas
+.special
 {
-	background: rgba(255, 204, 204, 0.5);
-	border: solid rgba(51, 153, 51, 0.8) 2px;
+	background: rgba(197, 183, 220, 0.5);
+	border: solid rgba(68, 43, 92, 0.8) 2px;
 	border-radius: 15px;
 	padding: 0.75em;
 	padding-bottom: 0;
 }
 
-.christmas h3 { color: rgba(51, 153, 51, 1); }
-.christmas a { color: #f33; }
-.christmas a:hover { color: rgba(255, 51, 51, 0.5); }
+.special h3 { color: rgba(68, 43, 92, 1); }
 
