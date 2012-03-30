@@ -26,7 +26,7 @@ body
 	margin-right: 4em;
 }
 
-h1, h2, h3, h4 { font-family: Tangerine; }
+h1, h2, h3 { font-family: Tangerine; }
 h1, h2, h3, h4, a:hover
 {
 	color: rgb(113, 95, 137);
@@ -45,6 +45,13 @@ h3
 	position: relative;
 	top: -0.75em;
 	margin-bottom: -.5em;
+}
+
+h4
+{
+	font-size: larger;
+	font-weight: bold;
+	margin-bottom: -.75em;
 }
 
 .block
