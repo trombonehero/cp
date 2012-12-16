@@ -140,8 +140,7 @@ ul.menu li.chrissy a.selected { background-position: -320px -80px; }
 
 a
 {
-	color: #a96fd6; /*rgb(145, 96, 189);*/
-	/*font-weight: bold;*/
+	color: #a96fd6;
 	text-decoration: none;
 }
 a:hover { text-decoration: underline; }
@@ -157,5 +156,9 @@ td { padding: 0 1em 0 1em; }
 	padding-bottom: 0;
 }
 
-.special h3 { color: rgba(68, 43, 92, 1); }
+.special h3
+{
+	color: rgba(68, 43, 92, 1);
+	text-align: right;
+}
 
