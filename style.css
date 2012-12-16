@@ -14,28 +14,36 @@ html
 {
 	color: rgb(62, 38, 74);
 	font-family: "Crimson Text", serif;
-}
 
-body
-{
 	background-image:url('images/flourish.png');
 	background-repeat:no-repeat;
 	background-position:bottom right;
 	background-attachment: fixed;
+}
 
-	margin-right: 4em;
+body
+{
+	background-image:url('images/top-banner.png');
+	background-repeat:no-repeat;
+	background-position:top;
+
+	margin-top: 0;
+	padding: 0;
 }
 
 h1, h2, h3 { font-family: Tangerine; }
 h1, h2, h3, h4, a:hover
 {
-	color: rgb(113, 95, 137);
+	color: #624777;/*rgb(113, 95, 137);*/
 }
 
 h1, h2
 {
-	margin-left: -.45em;
-	margin-bottom: -.25em;
+	margin-bottom: -.75em;
+
+	position: relative;
+	top: -.45em;
+	left: -.25em;
 }
 
 h2 { font-size: 36pt; }
@@ -54,6 +62,11 @@ h4
 	margin-bottom: -.75em;
 }
 
+img
+{
+	margin: 1em;
+}
+
 .block
 {
 	background: rgba(255, 255, 255, 0.7);
@@ -61,25 +74,77 @@ h4
 	margin: .5em;
 }
 
-#header
+#everything
 {
-	position: absolute;
-	top: 0em;
-	z-index: -1;
+	width: 800px;
+	max-width: 800px;
+
+	position: relative;
+	top: 0;
+
+	padding-top: 140px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-#body
+#header
 {
-	margin-top: 140px;
-	margin-left: 4em;
+	color: white;
+
+	position: absolute;
+	top: 80px;
+	left: 12px;
+}
+
+
+/*
+ * Top-level menu.
+ */
+.menu {             list-style: none; padding: 0; }
+.menu li {          float: left; }
+.menu li a
+{
+	display: block;
+	width: 80px;
+	height: 40px;
+
+	background: url('images/menu.png');
+	text-indent: -9999px;
+}
+
+/* Normal links */
+ul.menu li.home a { background-position: 0 0; width: 60px; }
+ul.menu li.pilates a { background-position: -55px 0; }
+ul.menu li.privates a { background-position: -110px 0; width: 90px; }
+ul.menu li.pregnancy a { background-position: -213px 0; width: 106px; }
+ul.menu li.chrissy a { background-position: -320px 0; }
+
+/* Hover Links */
+ul.menu li.home a:hover { background-position: 0 -40px; }
+ul.menu li.pilates a:hover { background-position: -55px -40px; }
+ul.menu li.privates a:hover { background-position: -110px -40px; }
+ul.menu li.pregnancy a:hover { background-position: -213px -40px; }
+ul.menu li.chrissy a:hover { background-position: -320px -40px; }
+
+/* Selected/Active Links */
+ul.menu li.home a.selected { background-position: 0 -80px; }
+ul.menu li.pilates a.selected { background-position: -55px -80px; }
+ul.menu li.privates a.selected { background-position: -110px -80px; }
+ul.menu li.pregnancy a.selected { background-position: -213px -80px; }
+ul.menu li.chrissy a.selected { background-position: -320px -80px; }
+
+#content
+{
+	padding: 0.5em;
 }
 
 a
 {
-	color: rgb(145, 96, 189);
-	font-weight: bold;
+	color: #a96fd6; /*rgb(145, 96, 189);*/
+	/*font-weight: bold;*/
 	text-decoration: none;
 }
+a:hover { text-decoration: underline; }
 
 td { padding: 0 1em 0 1em; }
 
